@@ -6,7 +6,7 @@ import img4 from "../img/img4.jpg"
 export default function Intro(){
     return(
         <>
-            <section className="w-full h-full mt-10 relative overflow-hidden">
+            <section id="#home" className="w-full h-full mt-10 relative overflow-hidden">
                 <div className="w-[20em] h-[10em] md:w-[25em] md:h-[13em] lg:w-[40em] lg:h-[20em] absolute top-0 left-0 -translate-x-40 rounded-2xl lg:rounded-3xl">
                     <img src={img01} alt="" className="w-full h-full bg-cover bg-center rounded-2xl lg:rounded-3xl"/>
                     <div className="absolute inset-0 bg-black/10 rounded-2xl lg:rounded-3xl"/>

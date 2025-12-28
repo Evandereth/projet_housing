@@ -12,7 +12,7 @@ export default function GIT(){
 
     return(
         <>
-            <section className="w-full mt-10 min-h-1/2 h-auto relative">
+            <section id="#git" className="w-full mt-10 min-h-1/2 relative">
                 <div className="w-[95%] lg:w-full mx-auto flex flex-col lg:flex-row space-y-5 lg:space-x-2 justify-between items-start">
                     <div className="w-full lg:w-[60%] lg:min-h-[22em]">
                     <h1 className="text-3xl font-bold pb-3 lg:w-[50%] lg:text-4xl">

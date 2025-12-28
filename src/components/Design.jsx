@@ -59,7 +59,7 @@ export default function Design(){
 
     return(
         <>
-            <section className="my-8 overflow-hidden">
+            <section id="#design" className="my-8 overflow-hidden">
                 <div className="w-[90%] mx-auto">
                      <h1 className={`text-4xl py-3 lg:w-120 font-bold`}>
                         Our Work is Built on Three Steps

@@ -5,7 +5,7 @@ import img01 from "../img/img5.jpg"
 export default function About(){
     return(
         <>
-            <section className={`w-full max-h-full relative mt-3 py-5 bg-gray-200/30 backdrop-blur-lg rounded-2xl`}>
+            <section id="#about" className={`w-full h-full relative mt-3 py-5 bg-gray-200/30 backdrop-blur-lg rounded-2xl`}>
                 <div className="w-full py-3 text-center md:mx-auto ">
                     <h1 className="uppercase font-bold text-4xl">
                         about us.

@@ -7,19 +7,23 @@ export default function Navbar(){
     const nav =[
         {
             id:1,
-            title: "Home"
+            title: "Home",
+            link: "home"
         },
         {
             id:2,
-            title: "About Us"
+            title: "About Us",
+            link: "about"
         },
         {
             id:3,
-            title: "House Design"
+            title: "House Design",
+            link: "design"
         },
         {
             id:4,
-            title: "Get in touch"
+            title: "Get in touch",
+            link: "git"
         },
     ]
 
@@ -46,7 +50,7 @@ export default function Navbar(){
 
                 <div className={`hidden md:flex justify-between items-center space-x-5 mr-5`}>
                     {nav.map((navItem) =>
-                        <a key={navItem.id} className="font-semibold hover:underline md:text-lg lg:text-xl">{navItem.title}</a>
+                        <a key={navItem.id} href={`#${navItem.link}`} className="font-semibold hover:underline md:text-lg lg:text-xl">{navItem.title}</a>
                     )}    
                 </div>         
                 
