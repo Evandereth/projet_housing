@@ -67,7 +67,7 @@ export default function Design(){
                 </div>
                
 
-                <div className={`w-[90%] lg:w-[95%] min-h-full mx-auto relative flex flex-col space-y-5 lg:flex-row justify-center items-center lg:items-end lg:space-x-4`}>
+                <div className={`w-[90%] lg:w-[95%] min-h-full mx-auto relative flex flex-col space-y-5 md:flex-row lg:flex-row justify-center items-center lg:items-end lg:space-x-4`}>
 
                     <div className={`p-2 relative w-full md:w-[50%]`}>
                     <div className="py-2 flex flex-col space-y-3 relative ">
